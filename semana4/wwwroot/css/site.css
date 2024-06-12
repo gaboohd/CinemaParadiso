@@ -1,0 +1,67 @@
+html{
+  font-size: 14px;
+  background-color: #001219;
+  color: darkorange;
+}
+
+header{
+   background-color: hsl(0, 0%,100%);
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+
+    }
+}
+
+.navbar-nav {
+    color: #001219;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html{
+    position: relative;
+    min-height: 30%;
+    background-color: #001219;
+}
+
+/*Fuente*/
+
+body{
+    font-family: Arial, sans-serif;
+    color: darkorange;
+}
+body {
+  margin-bottom: 100px;
+}
+
+.text-info{
+    color: darkorange;
+}
+
+/*Diseño del login*/
+
+.wrapper {
+    background-color: #242424;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0px 0px 20px #ee7219; /* Sombra con ligero desenfoque */
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+h2{
+    color: orangered;
+    font-size: 25px;
+}
+
+.mb-1{
+    font-size: 16px;
+    color: papayawhip;
+    text-align: left;
+}
